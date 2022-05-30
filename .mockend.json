@@ -1,18 +1,10 @@
-[
-                {
-                    "key": "Plan 1000",
-                    "value": "Plan 1000"
-                },
-                {
-                    "key": "Plan 2000",
-                    "value": "Plan 2000"
-                },
-                {
-                    "key": "Plan 3000",
-                    "value": "Plan 3000"
-                },
-                {
-                    "key": "Plan 4000",
-                    "value": "Plan 4000"
-                }
-            ]
+{
+  "name": {
+    "string": [
+      "Plan 1000",
+      "Plan 2000",
+      "Plan 3000",
+      "Plan 4000"
+    ]
+  }
+}

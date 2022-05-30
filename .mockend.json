@@ -1,6 +1,11 @@
 {
   "Post": {
-    "title": { "string": {} },
+    "title": "string": [
+      "Plan 1000",
+      "Plan 2000",
+      "Plan 3000",
+      "Plan 4000"
+    ],
     "comments": {
       "hasMany": "Comment"
     }
@@ -10,31 +15,5 @@
     "post": {
       "belongsTo": "Post"
     }
-  },
-  "name": {
-    "string": [
-      "Plan 1000",
-      "Plan 2000",
-      "Plan 3000",
-      "Plan 4000"
-    ]
-  },
-  "plans": [
-    {
-        "key": "Plan 1000",
-        "value": "Plan 1000"
-    },
-    {
-        "key": "Plan 2000",
-        "value": "Plan 2000"
-    },
-    {
-        "key": "Plan 3000",
-        "value": "Plan 3000"
-    },
-    {
-        "key": "Plan 4000",
-        "value": "Plan 4000"
-    }
-  ]
+  }
 }

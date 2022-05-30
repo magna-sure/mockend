@@ -1,13 +1,12 @@
 {
-  "Post": {
-    "title": {"string": [
-      "Plan 1000",
-      "Plan 2000",
-      "Plan 3000",
-      "Plan 4000"
-    ]},
-    "comments": {
-      "hasMany": "Comment"
+  "plans": {
+    "planName": {
+      "string": [
+        "Plan 1000",
+        "Plan 2000",
+        "Plan 3000",
+        "Plan 4000"
+      ]
     }
   },
   "Comment": {
